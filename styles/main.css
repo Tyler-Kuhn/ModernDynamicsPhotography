@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Fonts */
 body {
     font-family: 'Lora', serif;
   }
@@ -9,3 +15,55 @@ body {
   h4, h5, h6, .subtitle {
     font-family: 'Josefin Sans', sans-serif;
   }
+
+/* Colors */
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 3.5em;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0.5em 0.5em 1em hsla(0, 0%, 0%, 0.1);
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  height: 1.3em;
+  width: auto;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  margin: 0 1em;
+  transition: color 0.3s;
+  text-shadow: 1px 1px 1px hsl(21.29, 16.76%, 63.73%);
+}
+
+nav a:hover {
+  color: hsl(0, 0%, 50%);
+}
+
+nav a.active {
+  color: hsl(0, 0%, 50%);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+}
+
+nav li {
+  margin: 0 1em;
+}
