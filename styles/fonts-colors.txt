@@ -1,0 +1,25 @@
+
+Fonts:
+
+Playfair Display:
+Usage: This serif font has high contrast and distinctive style, making it suitable for headlines and titles.
+CSS: font-family: 'Playfair Display', serif;
+
+Josefin Sans:
+Usage: This sans-serif is sleek and geometric, which can complement the serif headline font for subtitles and 
+secondary text.
+CSS: font-family: 'Josefin Sans', sans-serif;
+
+Lora:
+Usage: This serif font is well-suited for body text due to its readability and classic style, providing a 
+good balance with the more decorative fonts used for headings.
+CSS: font-family: 'Lora', serif;
+
+
+
+Colors:
+
+gold/brown color = hsl(21.29, 16.76%, 63.73%)
+grey color = hsl(330, 4.76%, 91.76%)
+White color = hsl(0, 0%, 100%)
+

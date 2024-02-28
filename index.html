@@ -1,44 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Dynamics Photography | Home</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <img src="images/logo.png">
-        <nav>
-            <ul>
-                <li><a href="./pages/about.html">About</a></li>
-                <li><a href="./pages/portfolio.html">Porfolio</a></li>
-                <li><a href="./pages/collections.html">Collections</a></li>
-                <li><a href="./pages/services.html">Services</a></li>
-                <li><a href="./pages/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <img src="images/logo.png" />
+      <nav>
+        <ul>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/portfolio.html">Porfolio</a></li>
+          <li><a href="./pages/collections.html">Collections</a></li>
+          <li><a href="./pages/services.html">Services</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="carousel">
-
-        </section>
-        <section id="home-info">
-            <h1>Modern Dynamics Photography</h1>
-            <p>From My Lens to Your Legacy: I'm Chris, with over a decade in wedding photography, capturing the genuine
-                essence of every celebration. Let's make your moments unforgettable, together.</p>
-        </section>
-        <footer>
-            <p><a href="./pages/contact.html">Contact</a></p>
-            <ul>
-                <li><a href="./pages/about.html">Facebook</a></li>
-                <li><a href="./pages/portfolio.html">Instagram</a></li>
-                <li><a href="./pages/collections.html">X</a></li>
-                <li><a href="./pages/services.html">The Knot</a></li>
-            </ul>
-        </footer>
+      <section id="carousel">
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="image1.jpg" alt="Image 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="image2.jpg" alt="Image 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="image3.jpg" alt="Image 3" />
+            </div>
+            <!-- Additional slides... -->
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Navigation -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <section id="home-info">
+        <h1>Modern Dynamics Photography</h1>
+        <p>
+          From My Lens to Your Legacy: I'm Chris, with over a decade in wedding
+          photography, capturing the genuine essence of every celebration. Let's
+          make your moments unforgettable, together.
+        </p>
+      </section>
     </main>
-</body>
-
+    <footer>
+        <p><a href="./pages/contact.html">Contact</a></p>
+        <ul>
+          <li><a href="./pages/about.html">Facebook</a></li>
+          <li><a href="./pages/portfolio.html">Instagram</a></li>
+          <li><a href="./pages/collections.html">X</a></li>
+          <li><a href="./pages/services.html">The Knot</a></li>
+        </ul>
+      </footer>
+      <script src="./scripts/carousel.js"></script>
+  </body>
 </html>
