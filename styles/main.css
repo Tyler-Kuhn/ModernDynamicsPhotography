@@ -18,7 +18,8 @@ body {
 
 /* Colors */
 body {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsla(21.29, 16.76%, 63.73%, 1);
+  margin: 0;
 }
 
 /* Navbar */
@@ -29,12 +30,17 @@ header {
   position: fixed;
   top: 0;
   height: 3.5em;
+  margin: 0;
   width: 100%;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0.5em 0.5em 1em hsla(0, 0%, 0%, 0.1);
   z-index: 100;
 }
 
+header img {
+  margin: 0 1em;
+  height: 2.5em;
+}
 nav {
   display: flex;
   height: 1.3em;
@@ -46,7 +52,7 @@ nav a {
   text-decoration: none;
   color: hsl(0, 0%, 0%);
   margin: 0 1em;
-  transition: color 0.3s;
+  transition: color 0.3s ease-in-out;
   text-shadow: 1px 1px 1px hsl(21.29, 16.76%, 63.73%);
 }
 
@@ -67,3 +73,28 @@ nav ul {
 nav li {
   margin: 0 1em;
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  height: 3.5em;
+  margin: 0;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0.5em -0.5em 1em hsla(0, 0%, 0%, 0.1);
+  z-index: 100;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+}
+
+footer li {
+  margin: 0 1em;
+} 

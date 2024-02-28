@@ -15,14 +15,12 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
     <title>Modern Dynamics Photography | Home</title>
   </head>
 
   <body>
     <header>
-      <img src="images/logo.png" />
+      <a href="../index.html"><img src="./resources/logos/camera.png"></a>
       <nav>
         <ul>
           <li><a href="./pages/about.html">About</a></li>
@@ -35,32 +33,36 @@
     </header>
     <main>
       <!-- Swiper -->
-      <div class="swiper-container">
+      <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./resources/Images/placeholder1.webp" alt="Image 1" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./resources/Images/placeholder2.webp" alt="Image 2" />
-          </div>
-          <div class="swiper-slide">
-            <img src="./resources/Images/placeholder3.webp" alt="Image 3" />
-          </div>
-          <!-- Additional slides... -->
+          <div class="swiper-slide"><img src="./resources/Images/placeholder1.webp"></div>
+          <div class="swiper-slide"><img src="./resources/Images/placeholder2.webp"></div>
+          <div class="swiper-slide"><img src="./resources/Images/placeholder3.webp"></div>
+          <div class="swiper-slide"><img src="./resources/Images/placeholder4.webp"></div>
+          <div class="swiper-slide"><img src="./resources/Images/placeholder5.webp"></div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Add Navigation -->
-        <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+      <script src="./scripts/carousel.js"></script>
+
       <section id="home-info">
-        <h1>Modern Dynamics Photography</h1>
-        <p>
-          From My Lens to Your Legacy: I'm Chris, with over a decade in wedding
-          photography, capturing the genuine essence of every celebration. Let's
-          make your moments unforgettable, together.
-        </p>
+        <div id="home-info-img">
+          <img src="./resources/Images/placeholder5.webp" />
+        </div>
+        <div id="home-info-text">
+          <h1>Modern Dynamics Photography</h1>
+          <p>
+            From My Lens to Your Legacy: I'm Chris, with over a decade in
+            wedding photography, capturing the genuine essence of every
+            celebration. Let's make your moments unforgettable, together.
+          </p>
+        </div>
       </section>
     </main>
     <footer>
@@ -72,6 +74,5 @@
         <li><a href="./pages/services.html">The Knot</a></li>
       </ul>
     </footer>
-    <script src="./scripts/carousel.js"></script>
   </body>
 </html>
