@@ -1,0 +1,125 @@
+/* Media Query for screens up to 1440px wide */
+@media (max-width: 1440px) {
+    header {
+      justify-content: center; /* Center content for a more compact look */
+      height: auto; /* Adjust height based on content */
+      padding: 0.5em; /* Add padding for spacing */
+    }
+  
+    header img {
+      height: 2em; /* Adjust image height */
+      width: 50%; /* Adjust image width to be responsive */
+    }
+
+    footer p {
+      font-size: 1.2em; /* Reduce font size for better readability */
+    }
+  
+    nav a, footer a {
+      margin: 0 0.5em; /* Reduce margin for links to fit more on smaller screens */
+      font-size: 1.2em; /* Reduce font size to prevent overflow */
+    }
+  
+    nav ul, footer ul {
+      padding: 0.5em; /* Add some padding */
+    }
+  
+
+  }
+
+
+
+  /* Media Query for screens up to 768px wide */
+@media (max-width: 768px) {
+    main {
+      margin-top: 3em; /* Reduce top margin on smaller screens */
+      padding: 0; /* Remove padding */
+    }
+    header, footer {
+      height: auto; /* Adjust height based on content */
+      width: 100%; /* Use full width */
+      padding: 0.5em; /* Add padding for spacing */
+      justify-content: center;
+      align-items: center;
+    }
+  
+    header img {
+      display: none;
+      height: 0; /* Hide image */
+      width: 0; /* Hide image */ 
+      margin: 0;
+      padding: 0;      
+    }
+  
+    nav{
+      justify-content: center; /* Center navigation items */
+      width: 100%; /* Use full width for nav and footer lists */
+
+    }
+  
+    nav a, footer a {
+      font-size: 1em; /* Increase font size for better readability on mobile */
+      
+    }
+  
+    nav ul, footer ul {
+      flex-direction: row; /* Keep links in a row but allow wrapping */
+      flex-wrap: wrap; /* Allow items to wrap to next line if space is constrained */
+      justify-content: space-around; /* Evenly space links */
+      margin: 0; /* Remove margin */
+    }
+
+    footer p {
+      font-size: 1em; /* Reduce font size for better readability */
+    }
+  }
+
+    /* Media Query for screens up to 425px wide */
+@media (max-width: 425px) {
+    header, footer {
+      padding: 0.5em; /* Add padding for spacing */
+    }
+  
+    nav a, footer a {
+      font-size: 0.55em; /* Reduce font size for better readability */
+    }
+  
+    nav ul, footer ul {
+      justify-content: center;
+      padding: 0.5em; /* Add some padding */
+    }
+  }
+  /* Media Query for screens up to 375px wide */
+
+@media (max-width: 375px) {
+    header, footer {
+      padding: 0.5em; /* Add padding for spacing */
+    }
+  
+    nav a, footer a {
+      font-size: 0.5em; /* Reduce font size for better readability */
+    }
+  
+    nav ul, footer ul {
+      justify-content: center;
+      padding: 0.5em; /* Add some padding */
+    }
+}
+
+/* Media Query for screens up to 320px wide */
+@media (max-width: 320px) {
+    header, footer {
+      padding: 0.5em;
+      height: auto; /* Add padding for spacing */
+    }
+  
+    nav a, footer a {
+      font-size: 0.25em; /* Reduce font size for better readability */
+    }
+  
+    nav ul, footer ul {
+      justify-content: center;
+      padding: 0.5em; /* Add some padding */
+    }
+  }
+  /* Media Query for screens up to 280px wide */
