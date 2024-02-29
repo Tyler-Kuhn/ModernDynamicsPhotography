@@ -107,12 +107,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  bottom: 0;
   height: 3.5em;
   margin: 0;
   width: 100%;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0.5em 0.5em 1em hsla(0, 0%, 0%, 0.1);
-  z-index: 100;
+  z-index: 0;
 }
 
 footer ul {
