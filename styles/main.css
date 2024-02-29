@@ -16,6 +16,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
   }
 
+  .cursive {
+    font-family: 'Dancing Script', cursive;
+  }
+
 /* Colors */
 body {
   background-color: hsla(21.29, 16.76%, 63.73%, 1);
@@ -119,6 +123,9 @@ footer ul {
 
 footer li {
   margin: 0 1em;
+  .cursive {
+    font-size: 1.5em;
+  }
 }
 
 footer a {
@@ -127,6 +134,12 @@ footer a {
   transition: color 0.3s ease-in-out;
   text-shadow: 1px 1px 1px hsl(21.29, 16.76%, 63.73%);
 }
+
+footer a img {
+  height: 2em;
+  width: 2em;
+}
+
 
 footer a:hover {
   color: hsl(0, 0%, 50%);
