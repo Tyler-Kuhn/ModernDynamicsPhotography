@@ -1,0 +1,95 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5em;
+    border-radius: 10px;
+    background-color: hsla(21.29, 16.76%, 63.73%, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: url("../resources/Images/placeholder5.webp");
+    z-index: 0;
+}
+
+.gradient {
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(21.29, 16.76%, 63.73%, 0.5);
+    align-items: center;
+
+}
+
+.about-content-container {
+    display: flex;
+    align-items: space-evenly;
+    justify-content: center;
+    width: 75%;
+    padding: 1.2em;
+    margin: 1.2em;
+    border: .1em solid hsl(0, 0%, 100%);
+    border-radius: .9em;
+    background-color: hsla(330, 4.76%, 91.76%, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 1.2em;
+}
+
+#about-content h1 {
+    font-size: 2em;
+    width: 10em;
+    height: auto;
+    margin: 3em, auto;
+    background-color: hsla(0, 0%, 100%, 0.9);
+    padding: 0.5em 0.5em;
+    text-align: center;
+    border: .02em solid hsl(21.29, 16.76%, 63.73%);
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-content h2{
+    font-size: 1.5em;
+    width: 12em;
+    height: auto;
+    margin: 3em, auto;
+    background-color: hsla(0, 0%, 100%, 0.9);
+    padding: 0.5em 0.5em;
+    text-align: center;
+    border: .02em solid hsl(21.29, 16.76%, 63.73%);
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-content p {
+    font-size: 1em;
+    margin: 0.5em 0.5em;
+    background-color: hsla(0, 0%, 100%, 0.9);
+    padding: 0.5em 0.5em;
+    text-align: center;
+    border: .02em solid hsl(21.29, 16.76%, 63.73%);
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-container {
+    width: 50%;
+    height: auto;
+    padding: 1.2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    border: .1em solid hsl(0, 0%, 100%);
+    border-radius: 1em;
+}
