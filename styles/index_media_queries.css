@@ -1,4 +1,40 @@
 /* Media Query for screens up to 1440px wide */
+@media (min-width: 1440px) {
+    .swiper {
+        height: 35em; /* Adjust swiper height for larger screens */
+        width: 70em;
+        margin: auto;
+    }
+
+    .swiper-slide {
+        height: auto; /* Adjust slide height */
+    }
+
+    #home-info {
+        height: 25em; /* Adjust height to match swiper height */
+    }
+
+    #home-info-img, #home-info-text {
+        width: 50%; /* Adjust width for larger screens */
+    }
+
+    #home-info-text h1 {
+        font-size: 2.5em; /* Adjust font size for larger screens */
+        width: auto; /* Allow text containers to adjust based on content width */
+    }
+
+    #home-info-text p {
+        font-size: 1.25em; /* Adjust font size for larger screens */
+        width: 90%; /* Allow text containers to adjust based on content width */
+    }
+
+    #home-info-img img {
+        max-width: 25em; /* Adjust image size for larger screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+
 @media (max-width: 1440px) {
     .swiper {
         height: 20em; /* Adjust swiper height for smaller screens */
@@ -36,7 +72,7 @@
 
 
 /* Media Query for screens up to 768px wide */
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
     html{
         padding: 0;
         margin: 0;
@@ -81,7 +117,7 @@
 }
 
 /* Media Query for screens up to 425px wide */
-@media (max-width: 425px) {
+@media (max-width: 435px) {
     .swiper {
         height: 15em; /* Adjust swiper height for smaller screens */
         width: 20em;

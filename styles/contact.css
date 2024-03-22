@@ -1,0 +1,45 @@
+main {
+    margin-top: 2em;
+    padding: 0;
+    width: 100%;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 9em auto;
+    width: 30em;
+    max-width: 500px;
+    height: auto;
+    background-image: url("../resources/Images/placeholder3.webp");
+    padding: 0 1em;
+    border-radius: .5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    padding: 1em;
+    border-radius: .5em;
+}
+
+.input-box {
+    margin: 1em 0;
+    align-self: flex-start;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    background-color: hsl(330, 4.76%, 91.76%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
