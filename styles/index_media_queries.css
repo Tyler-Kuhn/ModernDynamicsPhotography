@@ -1,7 +1,7 @@
 /* Media Query for screens up to 1440px wide */
 @media (min-width: 1440px) {
     .swiper {
-        height: 35em; /* Adjust swiper height for larger screens */
+        height: 65em; /* Adjust swiper height for larger screens */
         width: 70em;
         margin: auto;
     }
@@ -37,7 +37,7 @@
 
 @media (max-width: 1440px) {
     .swiper {
-        height: 20em; /* Adjust swiper height for smaller screens */
+        height: 31em; /* Adjust swiper height for smaller screens */
         width: 60em;
         margin: auto;
     }
